@@ -1,4 +1,5 @@
-import calculate
-import supercalculate
-print(calculate.add(3, 5))
-print(supercalculate.addAdvanced(3, 5, 6, 7))
+import cal.calculate
+import cal.supercalculate
+
+print(cal.calculate.add(3, 5))
+print(cal.supercalculate.addAdvanced(3, 4, 5, 6, 7))
