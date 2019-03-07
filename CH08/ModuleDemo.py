@@ -1,5 +1,5 @@
-from cal.calculate import add
-from cal.supercalculate import addAdvanced
+from cal.calculate import add as a
+from cal.supercalculate import addAdvanced as b
 
-print(add(3, 5))
-print(addAdvanced(3, 4, 5, 6, 7))
+print(a(3, 5))
+print(b(3, 4, 5, 6, 7))
